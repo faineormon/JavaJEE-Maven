@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:h="http://java.sun.com/jsf/html">
+<h:head>
+	<title>Ola Mundo</title>
+</h:head>
+<h:body>
+	<h:form>
+		<h:inputText id="texto1" value="#{helloController.texto1}"></h:inputText>
+		<h:commandButton value="Clique me" action="#{helloController.trocarMensagem}"></h:commandButton>
+		<h:inputText id="texto2" value="#{helloController.texto2}"></h:inputText>
+
+	</h:form>
+
+</h:body>
+</html>
